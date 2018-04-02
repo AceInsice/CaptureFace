@@ -65,7 +65,7 @@ import android.media.FaceDetector.Face;
 public final class Utilities {
 
 
-
+    //通过摄像头返回的byte[]，转换成bitmap
     public static Bitmap getPreviewBitmap(byte[] previewbyte,Camera.Size size){
         Bitmap previewimg = null;
         try {
